@@ -1,0 +1,104 @@
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:16.972 ServerManager:46 - starting appium server
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:18.713 ServerManager:57 - Appium server started
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:23.723 DriverManager:48 - Initializing appium driver
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:23.738 PropertyManager:26 - loading config properties
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:23.740 CapabilitiesManager:45 - APPIUM URL: http://0.0.0.0:4723
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:23.741 CapabilitiesManager:51 - getting capabilities
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:23.768 CapabilitiesManager:74 - App Url is C:\Users\shawo\MobileAutomation\AppiumCucumberFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_8_API_35 FATAL] 2025-01-29 14:25:24.030 CapabilitiesManager:110 - Failed to load capabilities. ABORT!!org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'SHAWON', ip: '192.168.0.231'
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\shawo\MobileAutoma..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:avd: Pixel_8_API_35, appium:avdLaunchTimeout: 260000, appium:chromedriverPort: 11000, appium:deviceName: Pixel_8_API_35, appium:newCommandTimeout: 260, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\shawo\MobileAutoma..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:avd: Pixel_8_API_35, appium:avdLaunchTimeout: 260000, appium:chromedriverPort: 11000, appium:deviceName: Pixel_8_API_35, appium:newCommandTimeout: 260, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:52.362 ServerManager:46 - starting appium server
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:54.088 ServerManager:57 - Appium server started
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:59.102 DriverManager:48 - Initializing appium driver
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:59.116 PropertyManager:26 - loading config properties
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:59.117 CapabilitiesManager:45 - APPIUM URL: http://0.0.0.0:4723
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:59.118 CapabilitiesManager:51 - getting capabilities
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:25:59.137 CapabilitiesManager:74 - App Url is C:\Users\shawo\MobileAutomation\AppiumCucumberFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:27:33.966 CapabilitiesManager:81 - Session Id is b739bad9-4346-47e8-a36c-0938f53319bf
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:27:33.986 DriverManager:53 - Driver is initialized
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:27:40.888 BasePage:83 - login with invalidUsername
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:27:43.037 BasePage:83 - password is secret_sauce
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:27:44.305 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:27:51.553 BasePage:109 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:00.476 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with invalid username.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:02.402 BasePage:83 - login with standard_user
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:03.674 BasePage:83 - password is wrong_Password
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:04.817 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:06.469 BasePage:109 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:08.114 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with invalid password.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:10.501 BasePage:83 - login with invalidUsername
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:12.295 BasePage:83 - password is wrong_Password
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:12.950 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:14.656 BasePage:109 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:17.575 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with invalid username and password.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:22.174 BasePage:83 - login with standard_user
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:23.921 BasePage:83 - password is secret_sauce
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:25.023 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:28.193 BasePage:109 - product page title is - PRODUCTS
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:32.783 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with valid username and password.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:32.902 DriverManager:80 - Quitting Appium driver for current thread
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:28:36.412 DriverManager:87 - Appium driver removed from ThreadLocal.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:39:16.709 ServerManager:46 - starting appium server
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:39:18.980 ServerManager:57 - Appium server started
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:39:23.988 DriverManager:48 - Initializing appium driver
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:39:24.008 PropertyManager:26 - loading config properties
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:39:24.010 CapabilitiesManager:45 - APPIUM URL: http://0.0.0.0:4723
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:39:24.010 CapabilitiesManager:51 - getting capabilities
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:39:24.034 CapabilitiesManager:74 - App Url is C:\Users\shawo\MobileAutomation\AppiumCucumberFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:40:43.475 CapabilitiesManager:81 - Session Id is bb3195d3-8ba0-4a44-b331-ea88ff73da7e
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:40:43.481 DriverManager:53 - Driver is initialized
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:40:50.437 BasePage:83 - login with invalidUsername
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:40:54.934 BasePage:83 - password is secret_sauce
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:40:56.646 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:04.287 BasePage:109 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:07.086 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with invalid username.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:09.055 BasePage:83 - login with standard_user
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:10.839 BasePage:83 - password is wrong_Password
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:11.982 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:13.666 BasePage:109 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:15.215 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with invalid password.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:18.270 BasePage:83 - login with invalidUsername
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:20.160 BasePage:83 - password is wrong_Password
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:21.616 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:25.389 BasePage:109 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:26.743 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with invalid username and password.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:28.753 BasePage:83 - login with standard_user
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:30.510 BasePage:83 - password is secret_sauce
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:31.612 BasePage:66 - press login button
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:34.322 BasePage:109 - product page title is - PRODUCTS
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:35.775 VideoManager:43 - video path: Android_Pixel_8_API_35\Videos\Login with valid username and password.mp4
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:35.843 DriverManager:80 - Quitting Appium driver for current thread
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:41:37.310 DriverManager:87 - Appium driver removed from ThreadLocal.
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:56:02.978 ServerManager:46 - starting appium server
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:56:06.568 ServerManager:57 - Appium server started
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:56:11.577 DriverManager:48 - Initializing appium driver
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:56:11.597 PropertyManager:26 - loading config properties
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:56:11.599 CapabilitiesManager:45 - APPIUM URL: http://0.0.0.0:4723
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:56:11.599 CapabilitiesManager:51 - getting capabilities
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 14:56:11.621 CapabilitiesManager:74 - App Url is C:\Users\shawo\MobileAutomation\AppiumCucumberFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_8_API_35 FATAL] 2025-01-29 14:56:11.968 CapabilitiesManager:110 - Failed to load capabilities. ABORT!!org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'SHAWON', ip: '192.168.0.231'
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\shawo\MobileAutoma..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:avd: Pixel_8_API_35, appium:avdLaunchTimeout: 260000, appium:chromedriverPort: 11000, appium:deviceName: Pixel_8_API_35, appium:newCommandTimeout: 260, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\shawo\MobileAutoma..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:avd: Pixel_8_API_35, appium:avdLaunchTimeout: 260000, appium:chromedriverPort: 11000, appium:deviceName: Pixel_8_API_35, appium:newCommandTimeout: 260, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 15:29:03.621 ServerManager:46 - starting appium server
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 15:29:07.465 ServerManager:57 - Appium server started
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 15:29:12.474 DriverManager:48 - Initializing appium driver
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 15:29:12.496 PropertyManager:26 - loading config properties
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 15:29:12.498 CapabilitiesManager:45 - APPIUM URL: http://0.0.0.0:4723
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 15:29:12.499 CapabilitiesManager:51 - getting capabilities
+[Android_Pixel_8_API_35 INFO ] 2025-01-29 15:29:12.525 CapabilitiesManager:74 - App Url is C:\Users\shawo\MobileAutomation\AppiumCucumberFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_8_API_35 FATAL] 2025-01-29 15:29:12.937 CapabilitiesManager:110 - Failed to load capabilities. ABORT!!org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'SHAWON', ip: '192.168.0.231'
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\shawo\MobileAutoma..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:avd: Pixel_8_API_35, appium:avdLaunchTimeout: 260000, appium:chromedriverPort: 11000, appium:deviceName: Pixel_8_API_35, appium:newCommandTimeout: 260, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\shawo\MobileAutoma..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:automationName: UiAutomator2, appium:avd: Pixel_8_API_35, appium:avdLaunchTimeout: 260000, appium:chromedriverPort: 11000, appium:deviceName: Pixel_8_API_35, appium:newCommandTimeout: 260, appium:systemPort: 10000, appium:udid: emulator-5554, platformName: ANDROID}
