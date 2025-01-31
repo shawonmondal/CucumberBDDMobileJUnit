@@ -3,6 +3,7 @@ package com.qa.runners;
 import com.qa.utils.DriverManager;
 import com.qa.utils.GlobalParams;
 import com.qa.utils.ServerManager;
+import com.qa.utils.TestUtils;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.apache.logging.log4j.ThreadContext;
@@ -60,6 +61,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 )
 
 public class MyRunnerTest {
+    static TestUtils utils = new TestUtils();
 
     /**
      * Initializes the testing environment and prepares the necessary resources
@@ -85,8 +87,13 @@ public class MyRunnerTest {
 
         ThreadContext.put("ROUTINGKEY", params.getPlatformName() + "_" + params.getDeviceName());
 
-        new ServerManager().startServer();
-        new DriverManager().initializeDriver();
+//        new ServerManager().startServer();
+        ServerManager serverManager = new ServerManager();
+        serverManager.startServer();
+
+//        new DriverManager().initializeDriver();
+        DriverManager driverManager = new DriverManager();
+        driverManager.initializeDriver();
     }
 
     /**
@@ -110,9 +117,14 @@ public class MyRunnerTest {
         driverManager.quitDriver();
 
         // Here we are stopping the server only if it is running
+        utils.log().info("Will be Stopping the server if it is running");
         ServerManager serverManager = new ServerManager();
         if (serverManager.getServer() != null) {
-            serverManager.getServer().stop();
+            utils.log().info("Server is not null");
+            if (serverManager.getServer().isRunning()) {
+                utils.log().info("Stopping the server");
+                serverManager.getServer().stop();
+            }
         }
     }
 }
