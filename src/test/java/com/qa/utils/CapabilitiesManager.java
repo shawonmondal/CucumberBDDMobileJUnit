@@ -58,12 +58,12 @@ public class CapabilitiesManager {
                     androidOptions.setUdid(params.getUDID());                                       // Setting the udid and we are reading the value from the GlobalParams class
                     androidOptions.setDeviceName(params.getDeviceName());                           // Setting the deviceName and we are reading the value from the GlobalParams class
                     androidOptions.setAutomationName(props.getProperty("androidAutomationName"));   // Setting the automationName and we are reading the value from the config.properties file
-                    androidOptions.setNewCommandTimeout(Duration.ofSeconds(260));
+                    androidOptions.setNewCommandTimeout(Duration.ofSeconds(560));
                     androidOptions.setAppPackage(props.getProperty("androidAppPackage"));           // Setting the appPackage and we are reading the value from the config.properties file
                     androidOptions.setAppActivity(props.getProperty("androidAppActivity"));         // Setting the appActivity and we are reading the value from the config.properties file
 
 
-                    androidOptions.setAvd(params.getDeviceName()).setAvdLaunchTimeout(Duration.ofSeconds(260));
+                    androidOptions.setAvd(params.getDeviceName()).setAvdLaunchTimeout(Duration.ofSeconds(660));
 
                     androidOptions.setSystemPort(Integer.parseInt(params.getSystemPort()));                 // Setting the systemPort and we are reading the value from the GlobalParams class
                     androidOptions.setChromedriverPort(Integer.parseInt(params.getChromeDriverPort()));     // Setting the chromedriverPort and we are reading the value from the GlobalParams class

@@ -28,11 +28,11 @@ public class LoginStepDef {
 
     @Then("^I should see the error message \"([^\"]*)\"$")
     public void iShouldSeeTheErrorMessage(String errorMessage) {
-        Assert.assertEquals(new LoginPage().getErrTxt(), errorMessage);
+        Assert.assertEquals(errorMessage, new LoginPage().getErrTxt());
     }
 
     @Then("^I should see the products page title \"([^\"]*)\"$")
     public void iShouldSeeTheProductsPageTitle(String pageTitle) {
-        Assert.assertEquals(new ProductsPage().getTitle(), pageTitle);
+        Assert.assertEquals(pageTitle, new ProductsPage().getTitle());
     }
 }
